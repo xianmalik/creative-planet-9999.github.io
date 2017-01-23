@@ -24,15 +24,17 @@ body {
     text-align: center;
     width: 100%;
 }
-.info h1 span {
-    font-weight: 900;
-    font-family: sans-serif;
-    background: #FFF;
-    color: #405bff;
-    text-align: center;
+.desc span,
+.desc a:first-child {
     letter-spacing: 0.5em;
-    font-size: 32px;
-    margin: 0 auto .15em;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 auto .25em;
+    box-shadow: none;
+    background: transparent;
 }
 .links {
     margin: 1em 0 0 0;
@@ -42,8 +44,8 @@ body {
 .links a {
     display: inline-block;
     background: #FFF;
-    border: transparent;
     color: #6772e5;
+    border: transparent;
     font-size: 14px;
     margin: 1em .5em;
     padding: .5em 1em;
@@ -55,12 +57,14 @@ body {
     border-radius: 4px;
     letter-spacing: .025em;
 }
+code {
+    font-size: 10px;
+}
 code a {
     color: #fff;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.15);
     border-radius: 2px;
     padding: .2em .5em;
-    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
@@ -69,6 +73,13 @@ code a {
 }
 a::focus {
     outline: none;
+}
+.avatar img {
+    max-height: 120px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 5px 5px rgba(50,50,93,.2);
+    border-radius: 5px;
 }
 .block {
     background: #FFF;
