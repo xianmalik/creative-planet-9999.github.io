@@ -20,32 +20,65 @@ body {
     width: 100%;
     text-align: center;
 }
-.wrapper form {
+.wrapper section {
     text-align: center;
     width: 100%;
 }
-input {
+.info h1 span {
+    font-weight: 900;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #405bff;
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-size: 32px;
+    margin: 0 auto .15em;
+}
+.links {
+    margin: 1em 0 0 0;
+    position: relative;
+    display: block;
+}
+.links a {
+    display: inline-block;
     background: #FFF;
     border: transparent;
     color: #6772e5;
     font-size: 14px;
-    margin: 1em;
-    padding: 1em;
+    margin: 1em .5em;
+    padding: .5em 1em;
     font-weight: 600;
     text-transform: uppercase;
+    text-decoration: none;
     white-space: nowrap;
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
     border-radius: 4px;
     letter-spacing: .025em;
 }
-::-webkit-input-placeholder {
-    color: #6772e5;
+code a {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    padding: .2em .5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    letter-spacing: .025em;
 }
-input::focus {
+a::focus {
     outline: none;
 }
-input[type="submit"] {
-    color: #fff;
-    background: #3ecf8e;
-    cursor: pointer;
+.block {
+    background: #FFF;
+    display: block;
+    color: #405bff;
+    width: 1.2em;
+    line-height: 1.2em;
+    margin: 0 auto .25em;
+    border-radius: 5px;
+    font-size: 62px;
+    font-weight: 400;
+    font-family: serif;
 }
